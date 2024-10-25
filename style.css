@@ -1,0 +1,72 @@
+	#navbar-brand {
+			margin-left:5px;
+				}
+	.cro{
+		text align-self: center;
+		width: 100%;
+		height: 400px;
+
+	}
+	.pbtn{
+		width: 250px;
+		height: 150px;
+	}
+	.dd:hover{
+	background-color:lightcoral;
+	margin: 5px;
+	}
+
+
+@media(max-width:570px)
+{
+   .card {
+        font-size: 12px;
+        width: 400px;
+		height: 450px;
+		gap: 2;
+		padding: 5px;
+    	}
+    .pbtn{
+    	width:500px;
+    	height: 550px;
+    }
+    h5 {
+    	font-size: 20px;
+    }
+    .h3{
+    	font-size: 18px;
+    }
+    img {
+    	width: 100px;
+    	height: 100px;
+    }
+}
+@media(max-width:1199px)
+{
+	.pbtn{
+    	width:250px;
+    	height: 200px;
+    	margin: 2px;
+		gap: 2;
+    }
+	
+   .card {
+        font-size: 12px;
+        width: 400px;
+		height: 450px;
+		gap: 2;
+		padding: 5px;
+    	}
+    
+    h5 {
+    	font-size: 20px;
+    }
+    .h3{
+    	font-size: 18px;
+    }
+    img {
+    	width: 200px;
+    	height: 200px;
+    }
+
+}
